@@ -31,8 +31,11 @@ int main() {
 	int g = 12 % 5; // 연산 6 : 나머지 연산
 	// Print variable
 
-	int test_01 = 10 + 20 * 3;
+	int test_01 = 10 + 20 * 3; // 연산 7 : 연산 우선순위
 	printf("%d\n", test_01);
+	
+	int test_02 = (10 + 20) * 3; // 연산 8 : 괄호 연산
+	printf("%d\n", test_02);
 
 
 	/* == 논리연산 == */
@@ -59,6 +62,15 @@ int main() {
 
 	int not_01 = !true; // not 연산자 : T -> F, F -> T 변환
 	// Print variable
+
+	int equal = 100 == 10;
+
+	int not_equal = 100 != 10;
+
+	int gt = 100 > 10;
+	int ge = 100 >= 10;
+	int lt = 100 < 10;
+	int le = 100 <= 10;
 
 	return 0; 
 }
