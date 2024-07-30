@@ -18,6 +18,8 @@ int main() {
 
 	strcpy(str3, str1);
 	printf("복사된 문자열: %s", str3);
+
+	fseek(stdin, 0, SEEK_END);
 	
 	
 	return 0;
