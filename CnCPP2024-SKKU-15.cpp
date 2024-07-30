@@ -16,11 +16,13 @@ struct Hero{
 int main() { 
 	
 	Hero hero;
-	hero.level = 1;
+	hero.level = 1; // . 연산자를 이용하면 member에 접근할 수 있다. 
 	hero.health = 120;
 	hero.mana = 50;
 	hero.exp = 0;
 
+
+    // 각각의 member, property, 를 출력
 	printf("hero.level: %d\n", hero.level);
 	printf("hero.health: %d\n", hero.health);
 	printf("hero.mana: %d\n", hero.mana);
