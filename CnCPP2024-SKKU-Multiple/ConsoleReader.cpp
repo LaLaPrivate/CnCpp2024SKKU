@@ -1,5 +1,7 @@
 #include "ConsoleReader.h"
 
+int consolereadervar = 10;
+
 int ReadInt(const char* prompt){
     printf(prompt);
     int input;

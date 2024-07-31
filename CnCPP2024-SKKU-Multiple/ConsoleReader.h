@@ -13,4 +13,6 @@ int ReadInt(const char* prompt);
 float ReadFloat(const char* prompt);
 void ReadString(const char* prompt, char* out);
 
+extern int consolereadervar;
+
 #endif
